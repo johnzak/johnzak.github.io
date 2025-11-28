@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+/* Color Palette */
+.bg-dark-blue {
+    background-color: #0f172a;
+}
+
+.text-dark-blue {
+    color: #0f172a;
+}
+
+.bg-light-gray {
+    background-color: #f8f9fa;
+}
+
+.text-warning {
+    color: #f59e0b !important; /* Gold color for highlights */
+}
+
+.btn-dark-blue {
+    background-color: #0f172a;
+    color: white;
+    border: 2px solid #0f172a;
+}
+
+.btn-dark-blue:hover {
+    background-color: transparent;
+    color: #0f172a;
+}
+
+/* Navbar Tweaks */
+.navbar-nav .nav-link {
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link.active {
+    color: #f59e0b !important;
+}
+
+/* Smooth Scroll Padding */
+section {
+    scroll-margin-top: 70px;
+}
+
+/* Card Hover Effects */
+.hover-effect div {
+    transition: transform 0.3s ease, background-color 0.3s;
+}
+
+.hover-effect:hover div {
+    transform: translateY(-5px);
+    background-color: rgba(255,255,255,0.1);
+}
+
+/* Carousel Caption Background */
+.carousel-caption {
+    background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 2rem;
+}

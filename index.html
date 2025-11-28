@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Zakaria | System Admin & Security Specialist</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome (For Icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./img/favicon_io/favicon.ico" type="image/x-icon" />
+  </head>
+  
+  <body data-bs-spy="scroll" data-bs-target="#main-nav" data-bs-offset="100">
+
+    <!-- Navbar -->
+    <nav id="main-nav" class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark-blue shadow-sm">
+      <div class="container-xl">
+        <a href="#intro" class="navbar-brand fw-bold">
+          <i class="fa-solid fa-server me-2 text-warning"></i>John Zakaria
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="#intro" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link btn btn-outline-warning ms-lg-2 px-3 text-white">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="intro" class="bg-light-gray min-vh-100 d-flex align-items-center pt-10">
+      <div class="container-lg">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-6 text-center text-md-start order-2 order-md-1">
+            <h1 class="display-4 fw-bold text-dark-blue mb-2">John Zakaria</h1>
+            <h2 class="h4 text-muted mb-4">System Administrator & Cybersecurity Specialist</h2>
+                <p class="lead mb-4">
+                System Administrator & Security Specialist dedicated to building resilient infrastructure. 
+                I combine high-stakes experience from the <strong>Future of Egypt</strong> national project 
+                with independent cloud engineering expertise.
+                </p>
+            <div class="d-flex gap-3 justify-content-center justify-content-md-start">
+              <a href="#contact" class="btn btn-dark-blue btn-lg">Hire Me</a>
+              <a href="https://github.com/johnzak" target="_blank" class="btn btn-outline-dark btn-lg"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/john-zak-/" target="_blank" class="btn btn-outline-dark btn-lg"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="col-md-5 text-center order-1 order-md-2 mb-4 mb-md-0">
+            <!-- Ensure me.png is in your img folder -->
+            <img class="img-fluid rounded-circle shadow border border-5 border-white" src="./img/me.png" alt="John Zakaria" style="max-width: 350px;">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About, Education & Skills -->
+    <section id="about" class="bg-white py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold display-6">About & Qualifications</h2>
+          <div class="bg-warning mx-auto" style="width: 60px; height: 3px;"></div>
+        </div>
+        
+        <div class="row g-5">
+          <!-- Education & Training -->
+          <div class="col-lg-6">
+            <h4 class="fw-bold mb-4"><i class="fa-solid fa-graduation-cap me-2 text-warning"></i>Education & Training</h4>
+            
+            <div class="card mb-3 border-start border-4 border-warning shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Matruh University</h5>
+                <p class="card-text text-muted">B.Sc. Computer Science & AI (Major: IT) | 2024</p>
+                <p class="small">GPA: 3.6 / 4.0</p>
+              </div>
+            </div>
+
+            <div class="card mb-3 border-start border-4 border-warning shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Information Technology Institute (ITI)</h5>
+                <p class="card-text text-muted">Cybersecurity Track | 2024</p>
+              </div>
+            </div>
+
+            <div class="card mb-3 border-start border-4 border-warning shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Cisco Networking Academy</h5>
+                <p class="card-text text-muted">CCST Networking (Career Path) | 2025</p>
+                <p class="small">70-hour intensive training on network protocols & troubleshooting.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skills -->
+          <div class="col-lg-6">
+            <h4 class="fw-bold mb-4"><i class="fa-solid fa-microchip me-2 text-warning"></i>Technical Arsenal</h4>
+            
+            <div class="mb-4">
+              <h6 class="fw-bold text-uppercase text-muted small">Networking & Security</h6>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge bg-dark-blue">FortiGate Firewall</span>
+                <span class="badge bg-dark-blue">CCNA Concepts</span>
+                <span class="badge bg-dark-blue">OpenVPN</span>
+                <span class="badge bg-dark-blue">TCP/IP & DNS</span>
+                <span class="badge bg-dark-blue">Mesh Wi-Fi</span>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <h6 class="fw-bold text-uppercase text-muted small">Systems & Cloud</h6>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge bg-dark-blue">Windows Server</span>
+                <span class="badge bg-dark-blue">Active Directory (AD)</span>
+                <span class="badge bg-dark-blue">Linux (Ubuntu/CentOS)</span>
+                <span class="badge bg-dark-blue">AWS (EC2)</span>
+                <span class="badge bg-dark-blue">Windows VPS</span>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <h6 class="fw-bold text-uppercase text-muted small">Web & Email Infrastructure</h6>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge bg-dark-blue">cPanel</span>
+                <span class="badge bg-dark-blue">Zoho Mail</span>
+                <span class="badge bg-dark-blue">SPF/DKIM/DMARC</span>
+                <span class="badge bg-dark-blue">IIS</span>
+                <span class="badge bg-dark-blue">SSL/TLS</span>
+              </div>
+            </div>
+            
+             <div class="mb-4">
+              <h6 class="fw-bold text-uppercase text-muted small">Programming</h6>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge bg-secondary">Python</span>
+                <span class="badge bg-secondary">SQL</span>
+                <span class="badge bg-secondary">Bash Scripting</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section (Detailed) -->
+    <section id="experience" class="bg-light-gray py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold display-6">Work Experience</h2>
+          <div class="bg-warning mx-auto" style="width: 60px; height: 3px;"></div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            
+            <!-- Job 1: Future of Egypt -->
+            <div class="card shadow border-0 mb-4">
+              <div class="card-body p-4">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <h4 class="card-title fw-bold text-dark-blue">IT Help Desk Specialist (Conscript)</h4>
+                  <span class="badge bg-secondary">Dec 2024 – Dec 2025</span>
+                </div>
+                <h6 class="text-muted fw-bold mb-3">Egyptian Armed Forces (Future of Egypt Project)</h6>
+                <ul class="list-unstyled">
+                  <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i> Maintained 99% network uptime for 250+ staff in a remote sector.</li>
+                  <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i> Configured <strong>FortiGate Firewalls</strong>, managing VPNs and web filtering policies.</li>
+                  <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i> Administered <strong>Active Directory</strong> (User accounts, Permissions, GPO).</li>
+                  <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i> Troubleshot Mesh Wi-Fi and hardware for 30+ workstations.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Job 2: Freelance (Detailed) -->
+            <div class="card shadow border-0 mb-4">
+              <div class="card-body p-4">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <h4 class="card-title fw-bold text-dark-blue">Independent System Administrator</h4>
+                  <span class="badge bg-secondary">May 2024 – Present</span>
+                </div>
+                <h6 class="text-muted fw-bold mb-3">Freelance / Remote</h6>
+                
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="bg-light p-3 rounded">
+                            <strong class="d-block text-dark-blue"><i class="fa-solid fa-server me-2"></i>PinkMeUp Clinics</strong>
+                            <small>Provisioned a <strong>Windows VPS</strong>, managed IIS setup, and implemented SSL encryption for their healthcare system.</small>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="bg-light p-3 rounded">
+                             <strong class="d-block text-dark-blue"><i class="fa-brands fa-aws me-2"></i>Eltafawk</strong>
+                            <small>Deployed .NET apps on <strong>AWS EC2 (Linux)</strong>, optimizing resources to stay within Free Tier limits.</small>
+                        </div>
+                    </div>
+                     <div class="col-md-6">
+                        <div class="bg-light p-3 rounded">
+                             <strong class="d-block text-dark-blue"><i class="fa-solid fa-envelope me-2"></i>Email Security</strong>
+                            <small>Migrated clients to <strong>Zoho Mail</strong> and fixed spam issues via SPF, DKIM, and DMARC configuration.</small>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="bg-light p-3 rounded">
+                             <strong class="d-block text-dark-blue"><i class="fa-brands fa-cpanel me-2"></i>BrandArena</strong>
+                            <small>Managed <strong>cPanel</strong> hosting, firewall rules, and uptime monitoring for an advertising agency.</small>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Job 3: Hotels -->
+            <div class="card shadow border-0 mb-4">
+              <div class="card-body p-4">
+                <h4 class="card-title fw-bold text-dark-blue">Previous Roles</h4>
+                <div class="mb-3">
+                    <strong class="d-block">IT Help Desk Specialist @ Regency Hotel (2023)</strong>
+                    <small class="text-muted">Managed LAN/Wi-Fi infrastructure and provided Tier-1 support for PMS and hardware.</small>
+                </div>
+                <div>
+                    <strong class="d-block">IT Support & Developer @ GrandWaha Hotel (2022)</strong>
+                    <small class="text-muted">Developed a Python/SQL app to digitize reservations; performed hardware maintenance.</small>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Carousel -->
+    <section id="projects" class="bg-white py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold display-6">Featured Projects</h2>
+          <div class="bg-warning mx-auto" style="width: 60px; height: 3px;"></div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div id="projectsCarousel" class="carousel slide shadow-lg rounded overflow-hidden" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="0" class="active"></button>
+                      <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="1"></button>
+                      <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <!-- Project 1 -->
+                      <div class="carousel-item active">
+                        <!-- Add your image: img/vpn_server.png -->
+                        <img src="./img/vpn_server.png" class="d-block w-100" style="height: 450px; object-fit: cover; filter: brightness(0.6);" alt="VPN">
+                        <div class="carousel-caption d-none d-md-block text-start">
+                          <h3 class="fw-bold text-warning">&nbsp;Linux OpenVPN Server</h3>
+                          <p class="lead">&nbsp;&nbsp; Built a secure VPN from scratch on Linux. Configured `server.conf`, PKI certificates, &nbsp;&nbsp;&nbsp;and `iptables` routing to bypass network restrictions.</p>
+                        </div>
+                      </div>
+                      
+                      <!-- Project 2 -->
+                      <div class="carousel-item">
+                        <!-- Add your image: img/mail_server.png -->
+                        <img src="./img/mail_server.png" class="d-block w-100" style="height: 450px; object-fit: cover; filter: brightness(0.6);" alt="Mail Server">
+                        <div class="carousel-caption d-none d-md-block text-start">
+                          <h3 class="fw-bold text-warning">&nbsp;Secure Mail Infrastructure</h3>
+                          <p class="lead">&nbsp;&nbsp; Implemented SPF, DKIM, and DMARC records for clients on Zoho and cPanel to &nbsp;&nbsp;&nbsp;ensure 100% inbox deliverability and security.</p>
+                        </div>
+                      </div>
+          
+                      <!-- Project 3 -->
+                      <div class="carousel-item">
+                        <!-- Add your image: img/netlink.png -->
+                        <img src="./img/netlink.png" class="d-block w-100" style="height: 450px; object-fit: cover; filter: brightness(0.6);" alt="NetLink">
+                        <div class="carousel-caption d-none d-md-block text-start">
+                          <h3 class="fw-bold text-warning">&nbsp;NetLink (Award Winner)</h3>
+                          <p class="lead">&nbsp;&nbsp; 3rd Place @ EISTF Science Fair. An automated attendance system using Wi-Fi MAC &nbsp;&nbsp;&nbsp;address scanning written in Python.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-dark-blue text-white py-5">
+      <div class="container text-center">
+        <h2 class="fw-bold mb-4">Let's Connect</h2>
+        <p class="lead mb-5">Open for System Administration and Cloud Engineering opportunities.</p>
+        
+        <div class="row justify-content-center g-4">
+            <div class="col-md-3">
+                <a href="mailto:contact@johnzakaria.info" class="text-white text-decoration-none hover-effect">
+                    <div class="p-4 border border-light rounded">
+                        <i class="fa-solid fa-envelope fa-2x mb-3 text-warning"></i>
+                        <h5>Email</h5>
+                        <p class="small text">contact@johnzakaria.info</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="col-md-3">
+                <a href="https://api.whatsapp.com/send?phone=201208196133" target="_blank" class="text-white text-decoration-none hover-effect">
+                    <div class="p-4 border border-light rounded">
+                        <i class="fa-brands fa-whatsapp fa-2x mb-3 text-success"></i>
+                        <h5>WhatsApp</h5>
+                        <p class="small text">+201208196133</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-3">
+                <a href="https://www.linkedin.com/in/john-zak-/" target="_blank" class="text-white text-decoration-none hover-effect">
+                    <div class="p-4 border border-light rounded">
+                        <i class="fa-brands fa-linkedin fa-2x mb-3 text-primary"></i>
+                        <h5>LinkedIn</h5>
+                        <p class="small text">Connect Professionally</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white text-center py-3">
+      <small>&copy; 2025 John Zakaria. All Rights Reserved.</small>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
