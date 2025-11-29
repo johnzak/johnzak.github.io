@@ -97,3 +97,28 @@ section {
         margin-bottom: 0;
     }
 }
+
+/* --- FINAL MOBILE FIXES --- */
+
+/* 1. Fix the "White Line" on the right */
+html, body {
+    overflow-x: hidden; /* Nuclear option: cuts off anything that sticks out */
+    width: 100%;
+    position: relative;
+}
+
+/* 2. Fix Navbar covering your photo on mobile */
+@media (max-width: 991px) {
+    #intro {
+        /* Adds extra breathing room at the top ONLY on mobile */
+        /* This pushes your photo down so the navbar doesn't cover it */
+        padding-top: 130px !important; 
+        padding-bottom: 50px;
+    }
+
+    /* Optional: Ensure the photo doesn't touch the edges */
+    #intro img {
+        margin-top: 20px;
+        max-width: 80%; /* Makes image slightly smaller on phone for cleaner look */
+    }
+}
